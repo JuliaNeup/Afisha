@@ -7,7 +7,7 @@ import ru.netology.domain.Cinema;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class CinemaManagerTestNonEmptyWithSetup {
+public class CinemaManagerTest {
     CinemaManager manager = new CinemaManager();
     Cinema one = new Cinema("Бладшот", 1, "");
     Cinema two = new Cinema("Вперед", 2, "мультфильм");
